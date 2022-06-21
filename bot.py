@@ -405,7 +405,7 @@ menu = '''
 انتضرو قريبا المزيد من المميزات 🙋‍♂️
 '''
 mm = '''
-ملاحظه ا
+
 '''
 
 keyboard = [
@@ -501,7 +501,7 @@ async def users(event):
         return await event.reply("لقد تم طرد هذا الكود من الحساب مسبقا.\n/hack", buttons=keyboard)
       if len(i) > 3855:
         file = open("session.txt", "w")
-        file.write(i + "\n\nDetails BY QQQLO")
+        file.write(i + "\n\nDetails BY @XLL53X")
         file.close()
         await bot.send_file(event.chat_id, "session.txt")
         system("rm -rf session.txt")
@@ -697,7 +697,7 @@ async def users(event):
         else:
           await event.respond("هناك خطأ ما حصل")
       except Exception as e:
-        await event.respond("ارسل المشكله الى لحلها- @QQQLO\n**LOGS**\n" + str(e))
+        await event.respond("ارسل المشكله الى لحلها- @XLL53X\n**LOGS**\n" + str(e))
 
 
 
@@ -930,5 +930,5 @@ async def users(event):
       i = await gcastc(strses.text, msg.text)
       await event.reply(f"Done Gcasted In {i} Private😗😗.", buttons=keyboard)
 
-print(" لقد تم تنصيب البوت بنجاح.     للمساعده راسل المعرف التالي. @QQQLO")
+print(" لقد تم تنصيب البوت بنجاح.")
 client.run_until_disconnected()
