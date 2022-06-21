@@ -445,12 +445,8 @@ async def op(event):
       ]         
     await event.reply("اضغط هنا لاستخدامي", buttons=Arabihack)
   else:
-    legendbye = [
-      [
-        Button.url("دوس هنا", f"https://t.me/QQQLO")
-        ]
-      ]
-    await event.reply("اولا انضم الى القناه!\n بعدها جرب الضغط على~ /hack", buttons=legendbye)
+  
+    await event.reply(" الضغط على~ /hack", buttons=legendbye)
     
        
 @client.on(events.NewMessage(pattern="/hack", func=lambda x: x.is_group))
