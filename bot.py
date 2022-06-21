@@ -405,7 +405,7 @@ menu = '''
 انتضرو قريبا المزيد من المميزات 🙋‍♂️
 '''
 mm = '''
-ملاحظه انضم اولا للدعم @R125R
+ملاحظه ا
 '''
 
 keyboard = [
@@ -430,7 +430,7 @@ keyboard = [
     Button.inline("N", data="N"),
     ],
   [
-    Button.url("المطور", "https://t.me/QQQLO")
+    Button.url("المطور", "https://t.me/XLL53X")
     ]
 ]
 
@@ -451,11 +451,7 @@ async def op(event):
        
 @client.on(events.NewMessage(pattern="/hack", func=lambda x: x.is_group))
 async def op(event):
-  IndianHack = [
-    [
-      Button.url("دوس هنا", f"https://t.me/{Bot_Username}")
-      ]
-    ]         
+  
   await event.reply("اضغط هنا لاستخدامي", buttons=Arabihack)
   
 @client.on(events.NewMessage(pattern="/hack", func = lambda x: x.is_private))
@@ -484,7 +480,7 @@ async def start(event):
         Button.inline("N", data="N"),
         ],
       [
-        Button.url("المطور", "https://t.me/QQQLO")
+        Button.url("المطور", "https://t.me/XLL53X")
         ]
     ]
     await x.send_message(f"اختر ما تريد فعله معه الجلسه \n\n{menu}", buttons=keyboard)
